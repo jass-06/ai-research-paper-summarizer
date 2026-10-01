@@ -1,8 +1,8 @@
-# 📄 PaperAI — AI Research Paper Summarizer
+# 📄 PaperAI - AI Research Paper Summarizer
 
 ![CI](https://github.com/jass-06/ai-research-paper-summarizer/actions/workflows/ci.yml/badge.svg)
 
-Upload research papers (PDF) and get a structured AI summary, a one-line TL;DR,
+Upload research papers (PDF) and get a structured AI summary, a one - line TL;DR,
 keywords, topics, **real related papers from arXiv**, a **chat-style Q&A over the
 paper**, and a **multi-paper comparison** that surfaces research gaps.
 
