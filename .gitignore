@@ -1,0 +1,32 @@
+# Secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+*.pem
+**/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Local data (database, uploaded PDFs)
+backend/data/
+local.db
+local_storage/
+
+# Lambda build output
+lambda/build/
+lambda/lambda_function.zip
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

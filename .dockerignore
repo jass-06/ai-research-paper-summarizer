@@ -1,0 +1,10 @@
+**/node_modules
+**/__pycache__
+**/*.pyc
+frontend/dist
+backend/data
+local_storage
+lambda/build
+lambda/*.zip
+.env
+.git
