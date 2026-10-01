@@ -19,7 +19,7 @@ Runs fully locally with zero AWS setup.
 | Ask the paper | Ask questions; answers are grounded in retrieved passages, which are shown |
 | Compare | Pick 2–6 papers → overview, common themes, differences, research gaps, reading order |
 | Workflow | Drag & drop multi-upload, live status, search, retry, notes, Markdown export, open original PDF |
-| Cloud | S3 or local disk, RDS/Postgres or SQLite, Lambda or in-process — switched by `.env` only |
+| Cloud | S3 or local disk, RDS/Postgres or SQLite, Lambda or in-process - switched by `.env` only |
 | Quality | 10 automated tests, GitHub Actions CI, offline **mock AI mode** |
 
 ## Quick start (macOS)
@@ -84,7 +84,7 @@ samples/     sample PDF for testing
 Interactive docs: http://localhost:8000/docs
 
 ## Deploying to AWS
-See [`infra/deploy-aws.md`](infra/deploy-aws.md) — Tier 1 (EC2 + S3 + RDS + CloudFront) and Tier 2 (+ Lambda).
+See [`infra/deploy-aws.md`](infra/deploy-aws.md) - Tier 1 (EC2 + S3 + RDS + CloudFront) and Tier 2 (+ Lambda).
 
 ## Tests
 ```bash
@@ -92,7 +92,7 @@ make test     # runs offline with mock AI, temp SQLite and temp storage
 ```
 
 ## Known limitations
-- No user accounts yet — anyone with the URL sees all papers (next step: Amazon Cognito).
+- No user accounts yet - anyone with the URL sees all papers (next step: Amazon Cognito).
 - No OCR for scanned PDFs (detected and reported; next step: Amazon Textract).
 - Q&A uses keyword retrieval, not embeddings.
 - Lambda mode needs a NAT Gateway for internet access (see the deploy guide).
